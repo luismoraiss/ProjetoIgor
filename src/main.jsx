@@ -1,24 +1,30 @@
-import React from "react";
+import React, { Children } from "react";
 import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter,  RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import Professores from "./pages/Professores.jsx";
 import Login from "./pages/Login.jsx";
+import Erro from "./pages/404.jsx"
 
 const Router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <Login/>,
+    errorElement: <Erro/>
   },
-  {
-    path: "/professores/:id",
-    element: <Professores/>
-  },
-  {
-    path: "login",
-    element: <Login/>
-  }
+      {
+        path: "/home",
+        element: <App/>,
+      },
+      {
+        path: "/professores/:id",
+        element: <Professores/>
+      },
+      
+    
+
+  
 
 ])
 

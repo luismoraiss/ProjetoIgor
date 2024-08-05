@@ -77,6 +77,7 @@ const Button = styled.button`
   color: #ffffff;
   border-radius: 10px;
   font-size: 25px;
+  cursor:pointer;
 `;
 
 const ContainerInput = styled.div`
@@ -124,7 +125,7 @@ const App = () => {
   const [emailError, setEmailError] = useState(false);
   const [senhaError, setSenhaError] = useState(false);
   const [modalMessage, setModalMessage] = useState("");
-  const navigate = useNavigate(); // Hook de navegação
+  const navigate = useNavigate(); 
 
 
   const handleSubmit = (e) => {
@@ -139,7 +140,7 @@ const App = () => {
     if (usuario) {
       setModalMessage("Login realizado com sucesso!");
       setTimeout(() => {
-        navigate('/'); // Redireciona após 2 segundos
+        navigate('/home'); // Redireciona após 2 segundos
       }, 2000);
     }else{
           // Define os estados de erro para exibir mensagens
