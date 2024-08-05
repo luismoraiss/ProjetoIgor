@@ -1,0 +1,25 @@
+{
+    "usuarios":[
+        {
+            "nome":"luis",
+            "RA": "649322",
+            "email":"luis@gmail.com",
+            "senha": 123456
+
+        },
+        {
+            "nome":"fernando",
+            "RA": "289292",
+            "email":"fernando@gmail.com",
+            "senha": 123456
+
+        },
+        {
+            "nome":"maria",
+            "RA": "798392",
+            "email":"maria@gmail.com",
+            "senha": 123456
+
+        }
+    ]
+}
