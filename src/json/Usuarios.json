@@ -1,25 +1,48 @@
 {
     "usuarios":[
         {
-            "nome":"luis",
-            "RA": "649322",
-            "email":"luis@gmail.com",
+            "id": 1,
+            "ra": "123456",
+            "nome": "Christiano Shermam Da Silva Lima",
+            "itinerario": "Tecnologia da Informação",
+            "email": "christiano.lima@aluno.al.sesi.com.br",
             "senha": 123456
-
         },
-        {
-            "nome":"fernando",
-            "RA": "289292",
-            "email":"fernando@gmail.com",
-            "senha": 123456
 
+        {
+            "id": 2,
+            "ra": "654321",
+            "nome": "Luis Fernando Araujo Morais",
+            "itinerario": "Tecnologia da Informação",
+            "email": "luis.morais@aluno.al.sesi.com.br",
+            "senha": 123456
         },
-        {
-            "nome":"maria",
-            "RA": "798392",
-            "email":"maria@gmail.com",
-            "senha": 123456
 
+        {
+            "id": 3,
+            "ra": "142536",
+            "nome": "Paulo Santana Da Cruz",
+            "itinerario": "Tecnologia da Informação",
+            "email": "paulo.cruz@aluno.al.sesi.com.br",
+            "senha": 123456
+        },
+
+        {
+            "id": 4,
+            "ra": "415263",
+            "nome": "Vinycius Canuto",
+            "itinerario": "Tecnologia da Informação",
+            "email": "vinycius.canuto@aluno.al.sesi.com.br",
+            "senha": 123456
+        },
+
+        {
+            "id": 5,
+            "ra": "654321",
+            "nome": "Emerson Vinicius",
+            "itinerario": "Tecnologia da Informação",
+            "email": "emerson.vinicius@aluno.al.sesi.com.br",
+            "senha": 123456 
         }
     ]
 }

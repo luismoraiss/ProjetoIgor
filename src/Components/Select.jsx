@@ -47,7 +47,7 @@ const customStyles = {
 };
 
 
-const DropdownContainer = styled.div`
+const Container = styled.div`
   width: 300px;
   margin: 20px;
   
@@ -73,7 +73,7 @@ const MyComponent = () => {
 
   return (
     
-    <DropdownContainer>
+    <Container>
       
       <Select
         options={options}
@@ -83,7 +83,7 @@ const MyComponent = () => {
         isSearchable={false}
       />
        
-    </DropdownContainer>
+    </Container>
   );
 };
 

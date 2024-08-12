@@ -2115,12 +2115,82 @@
                         {
                             "hora": "07:15 às 08:15",
                             "status": "Em aula",
-                            "sala": "Sala 01"
+                            "sala": "Sala 11"
                         },
                         {
                             "hora": "08:15 às 09:15",
                             "status": "Em aula",
-                            "sala": "Sala 01"
+                            "sala": "Sala 11"
+                        },
+                        {
+                            "hora": "09:15 às 09:45",
+                            "status": "Intervalo",
+                            "sala": "Intervalo"
+                        },
+                        {
+                            "hora":"09:45 às 10:45",
+                            "status": "Projetos",
+                            "sala": "Projetos"
+                        },
+                        {
+                            "hora":"10:45 às 11:45",
+                            "status": "Em aula",
+                            "sala": "Sala 11"
+                        },
+                        {
+                            "hora":"11:45 às 12:45",
+                            "status": "Em aula",
+                            "sala": "Sala 11"
+                        }
+                    ]
+                },
+                {
+                    "dia": "Quinta-feira",
+                    "horarios_do_dia": [
+                        {
+                            "hora": "07:15 às 08:15",
+                            "status": "Em aula",
+                            "sala": "Sala 11"
+                        },
+                        {
+                            "hora": "08:15 às 09:15",
+                            "status": "Em aula",
+                            "sala": "Sala 11"
+                        },
+                        {
+                            "hora": "09:15 às 10:15",
+                            "status": "Em aula",
+                            "sala": "Sala 11"
+                        },
+                        {
+                            "hora":"10:15 às 10:45",
+                            "status": "Intervalo",
+                            "sala": "Intervalo"
+                        },
+                        {
+                            "hora":"10:45 às 11:45",
+                            "status": "Planejamento",
+                            "sala": "Planejamento"
+                        },
+                        {
+                            "hora":"11:45 às 12:45",
+                            "status": "Em aula",
+                            "sala": "Sala 11"
+                        }
+                    ]
+                },
+                {
+                    "dia": "Sexta-feira",
+                    "horarios_do_dia": [
+                        {
+                            "hora": "07:15 às 08:15",
+                            "status": "Em aula",
+                            "sala": "Sala 11"
+                        },
+                        {
+                            "hora": "08:15 às 09:15",
+                            "status": "Em aula",
+                            "sala": "Sala 11"
                         },
                         {
                             "hora": "09:15 às 09:45",
@@ -2130,17 +2200,17 @@
                         {
                             "hora":"09:45 às 10:45",
                             "status": "Em aula",
-                            "sala": "Sala 01"
+                            "sala": "Sala 11"
                         },
                         {
                             "hora":"10:45 às 11:45",
                             "status": "Em aula",
-                            "sala": "Sala 01"
+                            "sala": "Sala 11"
                         },
                         {
                             "hora":"11:45 às 12:45",
                             "status": "Em aula",
-                            "sala": "Sala 01"
+                            "sala": "Sala 11"
                         }
                     ]
                 }

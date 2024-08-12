@@ -2,10 +2,11 @@ import React, { Children } from "react";
 import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter,  RouterProvider } from "react-router-dom";
-import App from "./App.jsx";
-import Professores from "./pages/Professores.jsx";
-import Login from "./pages/Login.jsx";
-import Erro from "./pages/404.jsx"
+import Home from "./Pages/Home.jsx";
+import Professores from "./Pages/Professores.jsx";
+import Login from "./Pages/Login.jsx";
+import Erro from "./Pages/404.jsx"
+import Perfil from "./Pages/Perfil.jsx";
 
 const Router = createBrowserRouter([
   {
@@ -15,12 +16,16 @@ const Router = createBrowserRouter([
   },
       {
         path: "/home",
-        element: <App/>,
+        element: <Home/>,
       },
       {
         path: "/professores/:id",
         element: <Professores/>
       },
+      {
+      path:"/perfil",
+      element: <Perfil/>
+      }
       
     
 

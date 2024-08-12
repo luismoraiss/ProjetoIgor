@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import styled from "styled-components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faHouse, faUser, faArrowLeft } from './Icons';
+import { faBars, faHouse, faUser, faArrowLeft } from '../Styles/Icons';
+import { Link } from 'react-router-dom';
 
 const Nav = styled.div`
   display: flex;
@@ -26,21 +27,18 @@ display: flex;
   padding-left: ${({ expanded }) => (expanded ? '20px' : '0')}; 
   box-sizing: border-box; 
 `
-const Label = styled.span`
+const Label = styled(Link)`
   margin-left: 10px;
   font-size: 16px;
   color: #fff;
   display: ${({ expanded }) => (expanded ? 'inline' : 'none')}; 
+  text-decoration:none;
 `;
 
 const IconWrapper = styled.div`
   display: flex;
   align-items: center;
   transition: color 0.3s ease;
-  &:hover {
-    background-color: #e7e9f5; 
-    border-radius: 10px;
-  }
 
 `;
 
@@ -74,12 +72,12 @@ const NavBar = () => {
           <Label expanded={expanded}>Início</Label>
         </IconWrapper>
         <IconWrapper>
-          <Icon icon={faUser} style={{ fontSize: '24px', color: '#fff' }} />
-          <Label expanded={expanded}>Perfil</Label>
+          <Icon icon={faUser} />
+          <Label to='/perfil' expanded={expanded}>Perfil</Label>
         </IconWrapper>
         <IconWrapper>
-          <Icon icon={faArrowLeft} style={{ fontSize: '24px', color: '#fff' }} />
-          <Label expanded={expanded} style={{color: '#fff'}}>Voltar</Label>
+          <Icon icon={faArrowLeft} />
+          <Label to='/' expanded={expanded} style={{color: '#fff'}}>Voltar</Label>
         </IconWrapper>
       </IconContainer>
     </Nav>

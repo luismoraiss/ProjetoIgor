@@ -1,8 +1,8 @@
-// Modal.jsx
+
 import React, {useState} from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck } from '../Components/Icons.js';
+import { faCheck } from '../Styles/Icons.js';
 
 const Container = styled.div`
   position: fixed;
@@ -92,12 +92,6 @@ const Modal = ({ isOpen, onClose }) => {
 
   if (!isOpen) return null;
 
-  const handleSubmit = () => {
-    setIsSubmitted(true);
-    // Opcionalmente, você pode adicionar lógica aqui para enviar o e-mail
-    // Por exemplo, você pode fazer uma chamada de API para enviar o e-mail
-  };
-
   return (
     <Container>
       <ModalContainer>
@@ -107,7 +101,7 @@ const Modal = ({ isOpen, onClose }) => {
           <>
             <p style={{margin:'0'}}>Insira seu e-mail para recuperar a senha.</p>
             <Input type="email" />
-            <ButtonEmail onClick={handleSubmit}>Enviar</ButtonEmail>
+            <ButtonEmail>Enviar</ButtonEmail>
           </>
         ) : (<>
         
